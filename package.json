@@ -1,0 +1,19 @@
+{
+  "name": "excercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lambdas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kruczyna/excercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kruczyna/excercises/issues"
+  },
+  "homepage": "https://github.com/kruczyna/excercises#readme"
+}
