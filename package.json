@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kruczyna/excercises/issues"
   },
-  "homepage": "https://github.com/kruczyna/excercises#readme"
+  "homepage": "https://github.com/kruczyna/excercises#readme",
+  "dependencies": {
+    "dayjs": "^1.10.5"
+  }
 }
