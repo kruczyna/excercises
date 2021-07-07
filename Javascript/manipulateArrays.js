@@ -24,10 +24,3 @@ var myArray = [
   ['dog', 3],
 ];
 myArray.unshift(['Paul', 35]);
-
-function functionWithArgs(param1, param2) {
-  var add = param1 + param2;
-  console.log(add);
-}
-
-functionWithArgs(2 + 5);

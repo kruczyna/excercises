@@ -12,3 +12,6 @@ var anAdjective = 'awesome!';
 var ourStr = 'freeCodeCamp is ';
 ourStr += anAdjective;
 // output: freeCodeCamp is awesome!
+
+let string = '1278309238';
+console.log(string.slice(0, 2));
