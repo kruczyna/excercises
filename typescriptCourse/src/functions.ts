@@ -1,4 +1,4 @@
-function add(n1: number, n2: number) {
+function add2(n1: number, n2: number) {
   return n1 + n2;
 }
 
@@ -20,13 +20,13 @@ function printResult2(number: number): undefined { // error because a function c
   return; // if you want to use undefined, you have to have a return statement even without returning a value
 }
 
-printResult(add(5, 12));
-console.log(printResult(add(5, 12))); // in JS we get undefined
+printResult(add2(5, 12));
+console.log(printResult(add2(5, 12))); // in JS we get undefined
 
 let someValue = undefined; // undefined is a valid type in TS
 
 let combineValues: (a: number, b: number) => number; // any function that takes two parameters where each parameter is a number and returns a parameter
 
-combineValues = add;
+combineValues = add2;
 // combineValues = printResult; -> error, since it's a function, but doesn't match the function parameters and return value
 console.log(combineValues(8, 8));

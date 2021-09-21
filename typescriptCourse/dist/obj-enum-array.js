@@ -1,3 +1,4 @@
+"use strict";
 // const person: {
 //   name: string,
 //   age: number,
@@ -16,7 +17,10 @@ var Role;
     Role[Role["AUTHOR"] = 2] = "AUTHOR";
 })(Role || (Role = {}));
 ;
-var person = {
+// enum Role {
+//   ADMIN = 5, READ_ONLY, AUTHOR  // start the count from 5 instead of 0
+// };
+const person = {
     name: 'Victoria',
     age: 31,
     hobbies: ['Sports', 'Reading'],
@@ -25,6 +29,7 @@ var person = {
 if (person.role === Role.ADMIN) {
     console.log('This person is an admin');
 }
-for (var hobbies in person.hobbies) {
+for (const hobbies in person.hobbies) {
     console.log(hobbies);
 }
+let someObject; // any value, but it must be an array, so [2, 3, 'string'] is ok, but 2, 3, 'string' is not
